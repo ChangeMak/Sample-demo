@@ -1,0 +1,20 @@
+package Pattern;
+
+public class Piramid {
+
+	public static void main(String[] args) {
+		
+		for (int a=1;a<=5;a++) {                   //a=1
+			for(int b=5;b>=a;b--) {                //b=5
+				
+				System.out.print(" ");
+			}
+			for (int c=1;c<=a;c++) {
+				System.out.print("* ");
+			}
+			System.out.println();
+			
+		}
+	
+}
+}
